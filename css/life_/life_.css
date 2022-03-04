@@ -1,0 +1,137 @@
+/* * {border: 1px solid rgb(4, 24, 68);} */
+
+#life {
+    margin-top: 50px;
+    position: relative;
+    /* display: none; */
+}
+
+#life .me {
+    margin-top: 40px;
+}
+
+#life .me h2 {
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+#life .me a.habit:hover {
+    background-color: black;
+    color: white;
+    cursor: context-menu;
+}
+
+#life .me .thumb {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    height: 400px;
+    position: relative;
+    /* line-height: 0; */
+    filter: grayscale(30%);
+    /* border: 1px solid rebeccapurple; */
+}
+
+#life .me .thumb img {
+    width: 100%;
+    height: 100%;
+    /* line-height: 0; */
+}
+
+#life .me .thumb img.pic_2 {
+    width: 35%;
+    position: absolute;
+    top: 0;
+    /* opacity: 80%; */
+    right: 0;
+    height: 100%;
+    box-shadow: -2px 0px 4px black;
+    display: none;
+}
+
+#life .me .thumb .short {
+    /* border: 1px solid blue; */
+    width: 40%;
+    min-height: 100%;
+    position: absolute;
+    color: white;
+    top: 0px;
+    left: 0px;
+    padding: 40px 40px;
+    padding-bottom: 0;
+    background-color: rgba(24, 24, 24, 0.671);
+    box-shadow: 7px 0px 8px rgba(255, 249, 249, 0.541);
+    /* line-height: 0; */
+    /* border-radius: 4px; */
+    font-size: 14px;
+}
+
+#life .me .thumb .short p {
+    margin-bottom: 6px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgba(255, 253, 253, 0.705);
+}
+
+#life .me .mself {
+    margin-top: 20px;
+}
+
+#life .me .conpro {
+    margin-top: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#life .me .conpro a:nth-child(2) {
+    color: rgb(68, 159, 245);
+}
+
+#life .me .conpro a:nth-child(1) {
+    color: rgb(34, 87, 138);
+}
+
+#life .me .allmedia {
+    margin-top: 75px;
+    /* width: 75%; */
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+
+#life .me .allmedia h5 {
+    text-transform: capitalize;
+    color:  black;
+    letter-spacing: 1px;
+}
+
+#life .me .allmedia .media {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#life .me .allmedia .media a {
+    color: rgb(70, 70, 70);
+    margin: 10px 20px;
+}
+
+
+
+
+/* @media only screen and (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    #life .me a.habit {
+        border: none !important;
+        padding: 4px !important;
+        margin: 4px 0 !important;
+    }
+
+    #life .me .thumb .short {
+        display: none;
+    }
+
+    #life .me .thumb {
+        height: 250px;
+    }
+}

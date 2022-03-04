@@ -1,0 +1,93 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.home_ .blog {
+    /* border: 1px solid red;
+    background-color: red; */
+    margin-top: 70px;
+    margin-bottom: 70px;
+    min-height: 400px;
+    position: relative;
+}
+
+.home_ .blog h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgba(128, 128, 128, 0.719);
+    letter-spacing: 1px;
+}
+
+.home_ .blog .blog-room {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+.home_ .blog .blog-room ul li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 1px solid gainsboro;
+    padding: 15px 25px;
+}
+
+.home_ .blog .blog-room ul li:nth-child(1) {
+    border-top: 1px solid gainsboro;
+}
+
+.home_ .blog .blog-room ul li a {
+    color: black;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.home_ .blog .blog-room ul li a:hover {
+    color: rgb(95, 94, 94);
+}
+
+.home_ .blog .blog-room ul li a span.num {
+    margin-right: 30px;
+    /* border: 1px solid red; */
+}
+
+.home_ .blog .blog-room ul li a span.num .month {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.home_ .blog .blog-room ul li a .blog-name {
+    font-size: 20px;
+    padding: 6px 0;
+}
+
+/* \\\\\/// */
+.home_ .blog .more {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home_ .blog .more a {
+    padding: 10px 14px;
+    border: 2px solid black;
+    color: rgb(24, 23, 23);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.home_ .blog .more a:hover {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    transform: 0.4s;
+}
+
+/* @media only screen and (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    .home_ .blog .blog-room {
+        width: 100%;
+    }
+}

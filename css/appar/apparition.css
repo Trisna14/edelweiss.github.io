@@ -1,0 +1,19 @@
+#apparition {
+    /* border: 1px solid rgba(221, 216, 216, 0.575); */
+    width: 80%;
+    /* margin: auto; */
+    position: relative;
+    left: 100px;
+    /* top: 50px; */
+    top: 0;
+    min-height: 100vh;
+    margin-bottom: 350px;
+}
+
+/* @media only screen and (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    #apparition {
+        width: 80%;
+        left: 70px;
+    }
+}

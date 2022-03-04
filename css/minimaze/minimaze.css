@@ -1,0 +1,6 @@
+/* @media only screen and (max-width: 600px) */ 
+@media only screen and (max-width: 600px)  {
+    .mrgn_none {
+        margin: 0 !important;
+    }
+}

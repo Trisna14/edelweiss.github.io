@@ -1,0 +1,67 @@
+@import url("minimaze.css"); /* responsive */
+
+nav {
+    /* border: 2px solid rgba(82, 83, 85, 0.109); */
+    /* background-color: rgba(42, 224, 224, 0.972); */
+    /* background-image: url('../../imgs/nav.jpg');
+    background-size: cover; */
+    border-radius: 6px;
+    /* box-shadow: 3px 2px 4px rgba(57, 57, 58, 0.061); */
+    position: fixed;
+    /* border: 1px solid red; */
+    /* width: 100px; */
+    /* border-right: 2px solid rgba(37, 36, 36, 0.103); */
+    /* height: 100vh; */
+    /* border-radius: 7px; */
+    /* top: 105px; */
+    left: 10px;
+    top: 30px;
+    /* padding: 3px; */
+    /* margin: 0 0 0 10px; */
+    z-index: 50;
+    /* background-color: rgba(233, 233, 233, 0.267); */
+    /* display: none; */
+}
+
+
+/* nav .navbar {
+    display: flex;
+    border-bottom: 2px solid white;
+} */
+
+/* nav .navbar:nth-child(2) {
+    border: none;
+} */
+
+nav .navbar .navbar_menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .navbar .navbar_menu a {
+    color: black;
+    font-size: 21px;
+    margin: 8px;
+    /* margin: 4px; */
+    padding: 6px 10px;
+    /* border: 1px solid gainsboro; */
+    border-radius: 6px;
+    /* background-color: rgba(216, 214, 211, 0.788); */
+    color: rgb(15, 15, 15);
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603); */
+}
+
+nav .navbar .navbar_menu a:hover {
+    background-color: rgba(0, 0, 0, 0.788);
+    transition: 0.7s;
+    color: rgb(255, 248, 248);
+}
+
+nav .navbar .navbar_menu .touch {
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+    /* border: 1px solid rgba(0, 0, 0, 0.164); */
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603); */
+}

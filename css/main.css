@@ -1,0 +1,124 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* font-family: 'Anton', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+/* font-family: 'Praise', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+/* icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/* css import */
+/* navbar */
+@import url("navbar/main-navbar.css");
+@import url("navbar/main-sidebar.css");
+
+/* apparition */
+@import url("appar/apparition.css");
+
+/* home_ */
+@import url('home_/home_.css');
+
+/* life_ */
+@import url('life_/life_.css');
+
+/* aboutme */
+@import url('aboutme/aboutme.css');
+
+/* footer */
+@import url('footer/footer.css');
+
+/* minimaze */
+@import url('minimaze/minimaze.css');
+
+/* tred */
+@import url('tred/tred.css');
+
+* {
+    /* border: 1px solid rgb(10, 10, 10); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    /* color: red; */
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+.full-wrapper {
+    display: flex;
+}
+
+.wrapper-col-1 {
+    flex: 1;
+}
+
+.wrapper-col-2 {
+    flex: 2;
+}
+
+.wrapper-col-3 {
+    flex: 3;
+}
+
+.wrapper-col-4 {
+    flex: 4;
+}
+
+.wrapper-col-5 {
+    flex: 5;
+}
+
+.wrapper-col-full {
+    width: 100%;
+}
+
+/* @media only screen and (max-width: 600px) */ 
+@media only screen and (max-width: 600px) {
+    .full-wrapper {
+        display: block;
+    }
+
+    .wrapper-col-1 {
+        margin: 8px;
+    }
+    
+    .wrapper-col-2 {
+        margin: 8px 0;
+    }
+    
+    .wrapper-col-3 {
+        margin: 8px 0;
+    }
+    
+    .wrapper-col-4 {
+        margin: 8px 0;
+    }
+    
+    .wrapper-col-5 {
+        margin: 8px 0;
+    }
+    
+    .wrapper-col-full {
+        margin: 8px 0;
+    }
+}
