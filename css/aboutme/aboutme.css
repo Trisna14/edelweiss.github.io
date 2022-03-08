@@ -52,3 +52,8 @@
     margin: 8px;
     border-radius: 4px;
 }
+
+.aboutme .sosmed a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 211, 9);
+}

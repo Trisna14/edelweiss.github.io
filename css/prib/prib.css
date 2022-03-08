@@ -1,27 +1,27 @@
 /* * {border: 1px solid rgb(4, 24, 68);} */
 
-#life {
+#prib {
     margin-top: 50px;
     position: relative;
     /* display: none; */
 }
 
-#life .me {
+#prib .me {
     margin-top: 40px;
 }
 
-#life .me h2 {
+#prib .me h2 {
     text-transform: capitalize;
     margin-bottom: 12px;
 }
 
-#life .me a.habit:hover {
+#prib .me a.habit:hover {
     background-color: black;
     color: white;
     cursor: context-menu;
 }
 
-#life .me .thumb {
+#prib .me .thumb {
     /* border: 1px solid red; */
     margin-top: 20px;
     height: 400px;
@@ -31,13 +31,13 @@
     /* border: 1px solid rebeccapurple; */
 }
 
-#life .me .thumb img {
+#prib .me .thumb img {
     width: 100%;
     height: 100%;
     /* line-height: 0; */
 }
 
-#life .me .thumb img.pic_2 {
+#prib .me .thumb img.pic_2 {
     width: 35%;
     position: absolute;
     top: 0;
@@ -48,7 +48,7 @@
     display: none;
 }
 
-#life .me .thumb .short {
+#prib .me .thumb .short {
     /* border: 1px solid blue; */
     width: 40%;
     min-height: 100%;
@@ -65,31 +65,31 @@
     font-size: 14px;
 }
 
-#life .me .thumb .short p {
+#prib .me .thumb .short p {
     margin-bottom: 6px;
     font-style: italic;
     text-shadow: 2px 2px 2px rgba(255, 253, 253, 0.705);
 }
 
-#life .me .mself {
+#prib .me .mself {
     margin-top: 20px;
 }
 
-#life .me .conpro {
+#prib .me .conpro {
     margin-top: 40px;
     text-transform: capitalize;
     font-size: 20px;
 }
 
-#life .me .conpro a:nth-child(2) {
+#prib .me .conpro a:nth-child(2) {
     color: rgb(68, 159, 245);
 }
 
-#life .me .conpro a:nth-child(1) {
+#prib .me .conpro a:nth-child(1) {
     color: rgb(34, 87, 138);
 }
 
-#life .me .allmedia {
+#prib .me .allmedia {
     margin-top: 75px;
     /* width: 75%; */
     /* border: 1px solid red; */
@@ -97,13 +97,13 @@
 }
 
 
-#life .me .allmedia h5 {
+#prib .me .allmedia h5 {
     text-transform: capitalize;
     color:  black;
     letter-spacing: 1px;
 }
 
-#life .me .allmedia .media {
+#prib .me .allmedia .media {
     margin-top: 20px;
     font-size: 18px;
     display: flex;
@@ -111,7 +111,7 @@
     width: 100%;
 }
 
-#life .me .allmedia .media a {
+#prib .me .allmedia .media a {
     color: rgb(70, 70, 70);
     margin: 10px 20px;
 }
@@ -121,17 +121,17 @@
 
 /* @media only screen and (max-width: 600px) */
 @media only screen and (max-width: 600px) {
-    #life .me a.habit {
+    #prib .me a.habit {
         border: none !important;
         padding: 4px !important;
         margin: 4px 0 !important;
     }
 
-    #life .me .thumb .short {
+    #prib .me .thumb .short {
         display: none;
     }
 
-    #life .me .thumb {
+    #prib .me .thumb {
         height: 250px;
     }
 }
