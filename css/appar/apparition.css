@@ -13,7 +13,9 @@
 /* @media only screen and (max-width: 600px) */
 @media only screen and (max-width: 600px) {
     #apparition {
-        width: 80%;
-        left: 70px;
+        width: 90%;
+        left: 0px;
+        margin: 0 auto;
+        padding: 20px;
     }
 }
