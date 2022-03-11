@@ -1,3 +1,5 @@
+/* * {border: 1px solid red;} */
+
 #eview {
     /* background-color: red; */
     min-height: 400px;
@@ -53,6 +55,41 @@
 #eview .thumb .space .cardboard .calendar {
     font-size: 10px;
     text-transform: uppercase;
+}
+
+
+
+#eview .place-to-read {
+    /* background-color: red; */
+    min-height: 100px;
+    /* border: 1px solid red; */
+   
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#eview .place-to-read .quote {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    width: 70%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+#eview .place-to-read p {
+    font-size: 14px;
+    margin: 0;
+}
+
+#eview .conclusion {
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    font-style: italic;
 }
 
 /* @media only screen and (max-width: 600px) */ 
