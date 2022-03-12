@@ -65,3 +65,14 @@ nav .navbar .navbar_menu .touch {
     /* border: 1px solid rgba(0, 0, 0, 0.164); */
     /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603); */
 }
+
+/* @media only screen and (max-width: 600px) */ 
+@media only screen and (max-width: 600px) {
+    nav {
+        left: -5px;
+    }
+
+    nav .navbar .navbar_menu a {
+        padding: 2px 7px;
+    }
+}
