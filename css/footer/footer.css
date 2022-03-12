@@ -35,7 +35,8 @@
     padding: 10px 0;
     font-size: 40px;
     text-transform: capitalize;
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: bold;
 }
 
