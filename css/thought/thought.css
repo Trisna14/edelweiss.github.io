@@ -1,0 +1,30 @@
+/* * {
+    background-color: red;
+} */
+
+.table-of-contents {
+    margin-top: 100px;
+    /* border: 1px solid black; */
+}
+
+.table-of-contents h5 {
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 14px;
+     color: rgba(0, 0, 0, 0.801);
+     letter-spacing: 2px;
+     position: relative;
+     /* border: 1px solid red; */
+     width: 300px;
+     margin: auto;
+}
+
+.table-of-contents h5::after {
+    content: "";
+    border: 1px solid rgba(0, 0, 0, 0.89);
+    display: block;
+    width: 60px;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 4px;
+}
