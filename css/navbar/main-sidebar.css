@@ -139,6 +139,38 @@
     color: rgb(253, 252, 252);
 }
 
+.sidebar .activity {
+    /* background-color: red; */
+    width: 100px;
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+}
+
+.sidebar .activity h4 {
+    text-transform: capitalize;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sidebar .activity h4::after {
+    content: '';
+    border: 1px solid rgb(24, 22, 22);
+    display: block;
+    width: 30px;
+    padding: 1px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.sidebar .activity ul li {
+    text-transform: capitalize;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
 
 /* @media only screen and (max-width: 600px) */ 
 @media only screen and (max-width: 600px) {
