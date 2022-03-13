@@ -145,6 +145,7 @@
     margin-top: 20px;
     background: white;
     padding: 10px;
+    position: relative;
 }
 
 .sidebar .activity h4 {
@@ -176,5 +177,14 @@
 @media only screen and (max-width: 600px) {
     .sidebar .home_sidebar {
         width: auto;
+        /* border: 1px solid blue; */
+    }
+
+    /* .sidebar {border: 1px solid blue;} */
+
+    .sidebar .activity {
+        width: 140px;
+        margin-top: 0;
+        /* border: 1px solid red; */
     }
 }
