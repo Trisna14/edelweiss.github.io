@@ -3,4 +3,8 @@
     .mrgn_none {
         margin: 0 !important;
     }
+
+    .hidden_min {
+        display: none !important;
+    }
 }

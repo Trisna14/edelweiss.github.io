@@ -1,6 +1,7 @@
 /* * {
     background-color: red;
 } */
+/* * {border: 1px solid blue;} */
 
 .table-of-contents {
     margin-top: 100px;
@@ -21,10 +22,111 @@
 
 .table-of-contents h5::after {
     content: "";
-    border: 1px solid rgba(0, 0, 0, 0.89);
+    /* border: 1px solid rgba(0, 0, 0, 0.89); */
     display: block;
     width: 60px;
     margin: auto;
     margin-top: 8px;
     border-radius: 4px;
+    padding: 1px;
+}
+
+.table-of-contents .wrapper-tab {
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    display: flex;
+    /* align-items: baseline; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+
+.table-of-contents .wrapper-tab .tab {
+    /* border: 1px solid black; */
+    /* width: 200px;
+    height: 100px; */
+    padding: 10px;
+    
+}
+
+.table-of-contents .wrapper-tab .tab .wrapper-card {
+    /* border: 1px solid black; */
+    position: relative;
+    width: 333px;
+    height: 210px;
+}
+
+.table-of-contents .wrapper-tab .tab .wrapper-card img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(65%);
+}
+
+.table-of-contents .wrapper-tab .tab .wrapper-card .cup {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: steelblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-of-contents .wrapper-tab .tab .wrapper-card .cup .deep-cup {
+    border: 1px solid white;
+    width: 90%;
+    height: 85%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.table-of-contents .wrapper-tab .tab .wrapper-card .cup .deep-cup h2 {
+    background-color: rgba(255, 255, 255, 0.884);
+    color: black;
+    padding: 6px 10px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-size: 13px;
+    border-radius: 1px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+    font-style: italic;
+}
+
+.table-of-contents .wrapper-tab .tab .wrapper-card .cup .deep-cup span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .table-of-contents {
+        margin-top: 0;
+    }
+
+    .table-of-contents .wrapper-tab .tab {
+        width: 100%;
+    }
+
+    .table-of-contents .wrapper-tab .tab .wrapper-card {
+        display: block;
+        width: 100%;
+        /* border: 1px solid yellow; */
+    }
+
+    .table-of-contents .wrapper-tab .tab .wrapper-card .cup {
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
 }
