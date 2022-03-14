@@ -62,9 +62,59 @@
 
 #activity .activity-contents .content {
     width: 50%;
-    height: 200px;
+    height: 150px;
+    padding: 15px 10px;
     /* border: 1px solid red; */
+    /* border: 1px solid blue; */
     
+}
+
+#activity .activity-contents .content .tab {
+    /* min-height: 300px; */
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.281);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+
+#activity .activity-contents .content .tab .thumb {
+    width: 170px;
+    height: 100%;
+}
+
+#activity .activity-contents .content .tab .thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#activity .activity-contents .content .tab .wrapper-data {
+    padding: 10px;
+    width: 300px;
+    /* border: 1px solid red; */
+    /* padding-top: 0; */
+}
+
+#activity .activity-contents .content .tab .wrapper-data span {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#activity .activity-contents .content .tab .wrapper-data p {
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+}
+
+#activity .activity-contents .content .tab .wrapper-data .date {
+    font-size: 10px;
+    color: gray;
+    letter-spacing: 1px;
 }
 
 
@@ -75,5 +125,36 @@
 
     #activity .activity-contents {
         display: block;
+    }
+
+
+
+    #activity .activity-contents {
+        display: block;
+        /* border: 1px solid red; */
+    }
+
+    
+    #activity .activity-contents .content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        /* border: 1px solid steelblue; */
+    }
+
+    #activity .activity-contents .tab {
+        display: block;
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100px;
+    }
+
+    #activity .activity-contents .content .tab .thumb {
+        width: 100%;
+    }
+
+    #activity .activity-contents .content .tab .wrapper-data {
+        width: 100%;
+        /* border: 1px solid rgb(153, 12, 12); */
     }
 }
