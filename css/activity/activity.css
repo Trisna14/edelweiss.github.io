@@ -106,6 +106,11 @@
     letter-spacing: 1px;
 }
 
+#activity .activity-contents .content .tab .wrapper-data span a:hover {
+    color: rgb(46, 161, 71);
+    transition: 0.5s;
+}
+
 #activity .activity-contents .content .tab .wrapper-data p {
     font-size: 12px;
     color: rgb(70, 70, 70);
@@ -117,6 +122,57 @@
     letter-spacing: 1px;
 }
 
+/* VACTIVITY */
+.vactivity {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.vactivity .title {
+    text-align: center;
+}
+
+.vactivity .title h2 {
+    margin-bottom: 18px;
+    position: relative;
+}
+.vactivity .title h2::after {
+    content: "";
+    display: block;
+    border: 1px solid black;
+    width: 70px;
+    background-color: black;
+    border-radius: 100%;
+    padding: 1px;
+   
+    margin: auto;
+    margin-top: 10px;
+}
+
+.vactivity .title span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgb(148, 106, 40);
+    letter-spacing: 1px;
+}
+
+.vactivity .title div {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+    letter-spacing: 2px;
+}
+
+.vactivity hr {
+    margin-top: 20px;
+    color: red;
+}
+
+.vactivity .content {
+    /* border: 1px solid gainsboro; */
+    margin-top: 50px;
+}
 
 @media only screen and (max-width: 600px) {
     #activity .wrapper-photo .photo {
