@@ -57,3 +57,46 @@
     color: rgb(7, 39, 39);
     transition: 0.8s;
 }
+
+.btn-navbar {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-navbar {
+        display: block;
+        position: fixed;
+        right: 12px;
+        top: 12px;
+    }
+
+    .btn-navbar .btn-nav {
+        border: none;
+        background:none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .navigasi .navbar .nav-brand {
+        background-color: steelblue;
+    }
+
+    .navigasi .navbar .nav-brand a {
+        color: white;
+    }
+
+    .navigasi {
+        transform: translateX(-100%);
+        transition: 0.5s all;
+        width: 65%;
+        background-color: rgba(70, 131, 180, 0.315);
+    }
+
+    /* .navigasi .navbar .nav-menu .menu a {
+        color: wheat;
+    } */
+
+    .navigasi-show {
+        transform: translateX(0);
+    }
+}
