@@ -26,6 +26,10 @@ ul li {list-style: none;}
     /* font-weight: bold; */
 }
 
+.table-data tbody tr {
+    background-color: rgb(217, 224, 230);
+}
+
 .table-data tbody tr td .imgs {
     width: 80px;
     height: 50px;
@@ -42,7 +46,7 @@ ul li {list-style: none;}
 }
 
 .table-data tbody tr td.action a {
-    margin: 0 8px;
+    margin: 4px 8px;
 }
 
 .table-data tbody tr td.action a:nth-child(1) {
@@ -56,4 +60,15 @@ ul li {list-style: none;}
     border: 2px solid rgb(243, 91, 31);
     padding: 4px 6px;
     border-radius: 4px;
+}
+
+.table-data tbody tr:nth-child(2n) {
+    background-color: rgb(243, 236, 236);
+}
+
+@media only screen and (max-width: 600px) {
+    .table-data tbody tr td.action a {
+        /* margin-top: 30px; */
+        display: inline-block;
+    }
 }
