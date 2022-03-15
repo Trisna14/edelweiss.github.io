@@ -2,9 +2,12 @@ ul li {list-style: none;}
 
 
 .table-data {
-    border: 1px solid red;
+    /* border: 1px solid rgb(25, 101, 224); */
     border-collapse: collapse;
     margin-top: 40px;
+    min-width: 95%;
+    /* padding: 10px; */
+    position: relative;
 }
 
 /* .table-data tr {
@@ -70,5 +73,13 @@ ul li {list-style: none;}
     .table-data tbody tr td.action a {
         /* margin-top: 30px; */
         display: inline-block;
+    }
+
+    .table-data {
+        width: 85%;
+    }
+
+    .table-data thead tr td.hidden, .table-data tbody tr td.hidden {
+        display: none;
     }
 }
