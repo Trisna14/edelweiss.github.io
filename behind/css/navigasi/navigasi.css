@@ -28,11 +28,14 @@
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .navigasi .navbar .nav-menu {
     padding: 20px;
     position: relative;
+    /* margin-bottom: 20px; */
+    /* border: 1px solid red; */
 }
 
 .navigasi .navbar .nav-menu::after {
@@ -46,11 +49,22 @@
     margin-top: 5px;
 }
 
+.navigasi .navbar .nav-menu .title {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
 
 .navigasi .navbar .nav-menu .menu a {
     text-transform: capitalize;
     font-size: 13px;
     letter-spacing: 1px;
+}
+
+.navigasi .navbar .nav-menu .menu {
+    margin-bottom: 10px;
 }
 
 .navigasi .navbar .nav-menu .menu a:hover {
@@ -60,6 +74,32 @@
 
 .btn-navbar {
     display: none;
+}
+
+.navigasi .navbar .nav-dash {
+    padding: 20px;
+    position: relative;
+}
+
+.navigasi .navbar .nav-dash::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-top: 4px;
+}
+
+.navigasi .navbar .nav-dash .dash {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navigasi .navbar .nav-dash .dash a:hover {
+    color: rgb(97, 97, 84);
 }
 
 @media only screen and (max-width: 600px) {
