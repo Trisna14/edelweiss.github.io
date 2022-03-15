@@ -18,6 +18,50 @@
     position: relative;
 }
 
+.dash-page .dash-card .card .icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 100px;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.541);
+}
+.dash-page .dash-card .card .card-data {
+    position: absolute;
+    color: white;
+    padding: 20px;
+}
+
+.dash-page .dash-card .card .card-data .numb {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.dash-page .dash-card .card .card-data span {
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.dash-page .dash-card .card .card-footer {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(15, 15, 15, 0.219);
+    z-index: 3;
+    padding: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.dash-page .dash-card .card .card-footer a {
+    display: inline-block;
+    color: white;
+    letter-spacing: 2px;
+}
+
 .dash-page .dash-card .card:nth-child(2) {
     background-color: rgb(221, 224, 20);
 }
@@ -26,4 +70,15 @@
 }
 .dash-page .dash-card .card:nth-child(4) {
     background-color: rgb(216, 165, 25);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .dash-page .dash-card {
+        display: block;
+    }
+
+    .dash-page .dash-card .card {
+        width: 100%;
+    }
 }
