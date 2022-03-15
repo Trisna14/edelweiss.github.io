@@ -1,0 +1,29 @@
+.dash-page {
+    /* border: 1px solid black; */
+    min-height: 200px;
+}
+
+.dash-page .dash-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dash-page .dash-card .card {
+    width: 330px;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin: 10px;
+    background-color: steelblue;
+    padding: 14px;
+    position: relative;
+}
+
+.dash-page .dash-card .card:nth-child(2) {
+    background-color: rgb(221, 224, 20);
+}
+.dash-page .dash-card .card:nth-child(3) {
+    background-color: rgb(25, 233, 25);
+}
+.dash-page .dash-card .card:nth-child(4) {
+    background-color: rgb(216, 165, 25);
+}
