@@ -26,6 +26,18 @@
     width: 180px;
     border-radius: 40%;
 }
+.apper .directions {
+    margin-top: 40px;
+}
+.apper .directions a {
+    font-size: 37px;
+    margin-left: 40px;
+
+}
+
+.apper .directions a:hover {
+    color: rgb(29, 184, 106);
+}
 
 @media only screen and (max-width: 600px) {
     .apper {

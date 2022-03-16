@@ -8,6 +8,8 @@
     <!-- css -->
     <link rel="stylesheet" href="../css/main.css">
 
+    <script src="../assets/ckeditor/ckeditor.js"></script>
+
     <title>edelweiss</title>
 </head>
 <body>
@@ -67,20 +69,46 @@
 
         <div class="title"><h3><i class="bi bi-card-text"></i> activity | posting</h3></div>
 
+        <div class="directions"><a href="activity.html"><i class="bi bi-arrow-left-square"></i></a></div>
+
         <!-- activity posting -->
         <div class="posting">
             <div class="form-posting">
                 <form action="">
                     <div class="title-posting">
+                        <label for="">judul postingan</label>
                         <input type="text">
                     </div>
                     <div class="category-posting">
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">HTML</label><br>
-                        <input type="radio" id="css" name="fav_language" value="CSS">
-                        <label for="css">CSS</label><br>
-                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="">category</label>
+                        <select name="" id="">
+                            <option value="">adventure</option>
+                            <option value="">fishing</option>
+                            <option value="">hobi</option>
+                        </select>
+
                     </div>
+
+                    <div class="content-posting">
+                        <label for="">content posting</label>
+                        <textarea name="editor1" id="editor1" rows="10" cols="80">
+                            This is my textarea to be replaced with CKEditor 4.
+                        </textarea>
+                        <script>
+                            // Replace the <textarea id="editor1"> with a CKEditor 4
+                            // instance, using default configuration.
+                            CKEDITOR.replace( 'editor1', {
+                                height: 600,
+                                filebrowserUploadUrl : 'upload.php',
+                                filebrowserUploadMethod : 'form'
+                            });
+                        </script>
+                    </div>
+
+                    <div class="btn-posting">
+                        <button type="submit"><i class="bi bi-arrow-right-square"></i> posting</button>
+                    </div>
+
                 </form>
             </div>
         </div>

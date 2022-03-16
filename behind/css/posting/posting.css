@@ -4,3 +4,82 @@
     margin-top: 50px;
     background-color: rgba(245, 245, 245, 0.24);
 }
+
+.posting .form-posting {
+    margin: 10px;
+}
+
+.posting .form-posting .title-posting {
+    margin-bottom: 10px;
+}
+.posting .form-posting .title-posting label {
+    display: block;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.posting .form-posting .title-posting input {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid gainsboro;
+}
+
+/*  */
+.posting .form-posting .category-posting {
+    margin-bottom: 20px;
+}
+.posting .form-posting .category-posting label {
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.posting .form-posting .category-posting select {
+    outline: none;
+    width: 200px;
+    border-radius: 0 !important;
+    text-transform: capitalize;
+    padding: 10px;
+    border: 1px solid gainsboro;
+}
+
+.posting .form-posting .category-posting select option {
+    border-radius: 0 !important;
+    border: 1px solid blue !important;
+    /* text-transform: capitalize; */
+    padding: 5px;
+    display: inline-block;
+    outline: none;
+    text-transform: capitalize;
+}
+
+/*  */
+.posting .form-posting .content-posting label {
+    text-transform: capitalize;
+    padding: 10px;
+    display: block;
+}
+
+.posting .form-posting .btn-posting {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.posting .form-posting .btn-posting button {
+    padding: 8px 12px;
+    text-transform: capitalize;
+    font-size: 16px;
+    background:none;
+    border: none;
+    letter-spacing: 2px;
+    background-color: rgb(26, 118, 194);
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.posting .form-posting .btn-posting button:hover {
+    background-color: rgb(81, 115, 143);
+}
